@@ -10,6 +10,18 @@ body {
     flex-direction: column;
 }
 
+#footer
+{
+    margin: 0;
+    padding: 100px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #031321;
+    font-family: consolas;
+    color: #2196f3;
+}
+
 #NB1e {
     position: relative;
     display: inline-block;
@@ -28,7 +40,7 @@ body {
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
     transition-delay: 1s;
-
+    filter: hue-rotate(110deg);
 }
 
 #NB1e span {
@@ -98,6 +110,7 @@ body {
     letter-spacing: 4px;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
+ 
 #NB2e:hover {
     background: #03e9f4;
     color: #050801;

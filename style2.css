@@ -1,0 +1,10 @@
+.header
+{
+    border: solid 3px;
+    padding: 20px;
+    min-height: 10vh;
+    color: #2196f3;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: auto;
+}
